@@ -1,0 +1,21 @@
+{
+  "issue": 5,
+  "titulo": "Story sex 20/11 frame 1: Feriado hoje. (1º teste do publicador)",
+  "quando": "2026-11-20T10:00:00-03:00",
+  "postagens": [
+    {
+      "rede": "instagram",
+      "tipo": "story",
+      "midias": [
+        "posts/2026-11-18-stories-semana/03.jpg"
+      ]
+    },
+    {
+      "rede": "facebook",
+      "tipo": "story",
+      "midias": [
+        "posts/2026-11-18-stories-semana/03.jpg"
+      ]
+    }
+  ]
+}
