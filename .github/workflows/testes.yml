@@ -1,0 +1,18 @@
+name: Testes do publicador
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths: ["publicador/**", "agenda/**", ".github/workflows/**"]
+
+permissions:
+  contents: read
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m unittest discover -s publicador -v
+      - run: python3 publicador/publicar.py validar
