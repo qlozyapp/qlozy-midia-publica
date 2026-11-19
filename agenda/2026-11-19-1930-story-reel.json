@@ -17,5 +17,19 @@
         "posts/2026-11-18-stories-semana/story-19-reel.jpg"
       ]
     }
-  ]
+  ],
+  "resultado": {
+    "instagram": {
+      "status": "publicado",
+      "em": "2026-11-19T22:31:46+00:00",
+      "id": "18019886414982332",
+      "link": "https://www.instagram.com/stories/qlozyapp/4034144322387917927"
+    },
+    "facebook": {
+      "status": "publicado",
+      "em": "2026-11-19T22:31:51+00:00",
+      "id": "2339288113472403",
+      "link": null
+    }
+  }
 }
