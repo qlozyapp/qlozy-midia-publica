@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
       - name: Publicar o que venceu
         id: publicar
@@ -33,7 +33,8 @@ jobs:
           META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
           META_IG_ID: ${{ secrets.META_IG_ID }}
-        run: python3 publicador/publicar.py "${{ inputs.comando || 'publicar' }}"
+          COMANDO: ${{ inputs.comando || 'publicar' }}
+        run: python3 publicador/publicar.py "$COMANDO"
 
       # Roda mesmo se a publicação falhar: o resultado (inclusive de erro) precisa voltar
       # para o repositório, senão a próxima execução publicaria de novo o que já saiu.
