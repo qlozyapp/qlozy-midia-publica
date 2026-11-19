@@ -1,0 +1,21 @@
+{
+  "issue": 5,
+  "titulo": "Story qui 19/11 19h30: chamada para o reel 'Ela confirmou. E não veio.' (no lugar do repost)",
+  "quando": "2026-11-19T19:30:00-03:00",
+  "postagens": [
+    {
+      "rede": "instagram",
+      "tipo": "story",
+      "midias": [
+        "posts/2026-11-18-stories-semana/story-19-reel.jpg"
+      ]
+    },
+    {
+      "rede": "facebook",
+      "tipo": "story",
+      "midias": [
+        "posts/2026-11-18-stories-semana/story-19-reel.jpg"
+      ]
+    }
+  ]
+}

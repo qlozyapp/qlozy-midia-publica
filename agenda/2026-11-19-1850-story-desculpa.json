@@ -1,0 +1,21 @@
+{
+  "issue": 5,
+  "titulo": "Story qui 19/11 (era das 10h): 02.png 'Qual foi a desculpa mais criativa de quem faltou?' — sem caixinha (a API não põe sticker)",
+  "quando": "2026-11-19T18:50:00-03:00",
+  "postagens": [
+    {
+      "rede": "instagram",
+      "tipo": "story",
+      "midias": [
+        "posts/2026-11-18-stories-semana/02.jpg"
+      ]
+    },
+    {
+      "rede": "facebook",
+      "tipo": "story",
+      "midias": [
+        "posts/2026-11-18-stories-semana/02.jpg"
+      ]
+    }
+  ]
+}
