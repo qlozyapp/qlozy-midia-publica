@@ -1,0 +1,53 @@
+name: Publicar
+
+# Publica no Instagram e no Facebook o que está em agenda/*.json e já passou do horário.
+# O cron do GitHub atrasa às vezes de 5 a 15 minutos; o horário do post é o mínimo, não o exato.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      comando:
+        description: "publicar, validar ou verificar (confere token, página e Instagram)"
+        default: verificar
+        type: choice
+        options: [verificar, validar, publicar]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publicar o que venceu
+        id: publicar
+        env:
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_IG_ID: ${{ secrets.META_IG_ID }}
+        run: python3 publicador/publicar.py "${{ inputs.comando || 'publicar' }}"
+
+      # Roda mesmo se a publicação falhar: o resultado (inclusive de erro) precisa voltar
+      # para o repositório, senão a próxima execução publicaria de novo o que já saiu.
+      - name: Gravar o resultado na agenda
+        if: always()
+        run: |
+          git config user.name "qlozy-publicador"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add agenda
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -q -m "publicador: resultado $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          echo "::error::não consegui gravar o resultado; confira antes da próxima execução para não duplicar"
+          exit 1
