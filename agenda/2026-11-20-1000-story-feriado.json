@@ -17,5 +17,19 @@
         "posts/2026-11-18-stories-semana/03.jpg"
       ]
     }
-  ]
+  ],
+  "resultado": {
+    "instagram": {
+      "status": "publicado",
+      "em": "2026-11-20T13:08:42+00:00",
+      "id": "18123522451943012",
+      "link": "https://www.instagram.com/stories/qlozyapp/4034585670718152328"
+    },
+    "facebook": {
+      "status": "publicado",
+      "em": "2026-11-20T13:08:47+00:00",
+      "id": "29830674193205432",
+      "link": null
+    }
+  }
 }
