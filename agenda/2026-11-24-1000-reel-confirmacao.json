@@ -1,0 +1,25 @@
+{
+  "issue": 28,
+  "titulo": "Reel ter 24/11 10h: Cliente não responde seu aviso?",
+  "quando": "2026-11-24T10:00:00-03:00",
+  "postagens": [
+    {
+      "rede": "instagram",
+      "tipo": "reel",
+      "midias": [
+        "posts/2026-11-24-confirmacao-que-responde/reel.mp4"
+      ],
+      "capa": "posts/2026-11-24-confirmacao-que-responde/capa.jpg",
+      "legenda": "Sua cliente não responde a confirmação? O problema pode estar na mensagem.\r\n\r\nAviso que só informa o horário fica no visto. Troque por uma pergunta com duas saídas: SIM pra confirmar, REMARCAR pra trocar. E mande na véspera, com tempo de encaixar outra pessoa se ela remarcar.\r\n\r\nSalva pra testar na confirmação de amanhã.\r\n\r\nTeste grátis por 14 dias, sem cartão. Link na bio.\r\n\r\n#gestaodesalao #donadesalao #agendacheia #salaodebeleza\r\n"
+    },
+    {
+      "rede": "facebook",
+      "tipo": "reel",
+      "midias": [
+        "posts/2026-11-24-confirmacao-que-responde/reel.mp4"
+      ],
+      "capa": "posts/2026-11-24-confirmacao-que-responde/capa.jpg",
+      "legenda": "Sua cliente não responde a confirmação? Testa essa mudança na mensagem de amanhã.\r\n\r\nTeste grátis por 14 dias, sem cartão: https://qlozy.com/?utm_source=facebook&utm_medium=social&utm_campaign=confirmacao-que-responde\r\n"
+    }
+  ]
+}
