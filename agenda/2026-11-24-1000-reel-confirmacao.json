@@ -21,5 +21,19 @@
       "capa": "posts/2026-11-24-confirmacao-que-responde/capa.jpg",
       "legenda": "Sua cliente não responde a confirmação? Testa essa mudança na mensagem de amanhã.\r\n\r\nTeste grátis por 14 dias, sem cartão: https://qlozy.com/?utm_source=facebook&utm_medium=social&utm_campaign=confirmacao-que-responde\r\n"
     }
-  ]
+  ],
+  "resultado": {
+    "instagram": {
+      "status": "publicado",
+      "em": "2026-11-24T13:09:38+00:00",
+      "id": "18100013327560772",
+      "link": "https://www.instagram.com/reel/DgIBx_MFA39/"
+    },
+    "facebook": {
+      "status": "publicado",
+      "em": "2026-11-24T13:10:00+00:00",
+      "id": "1141540705358296",
+      "link": "https://www.facebook.com/reel/1141540705358296/"
+    }
+  }
 }
