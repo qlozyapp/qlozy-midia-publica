@@ -31,5 +31,19 @@
       ],
       "legenda": "Cliente sumiu? 4 mensagens prontas pra chamar de volta, uma pra cada caso.\r\n\r\nTroca o que está entre colchetes e manda do seu WhatsApp. Teste grátis por 14 dias, sem cartão: https://qlozy.com/?utm_source=facebook&utm_medium=social&utm_campaign=chamar-de-volta\r\n"
     }
-  ]
+  ],
+  "resultado": {
+    "instagram": {
+      "status": "publicado",
+      "em": "2026-11-25T13:08:35+00:00",
+      "id": "17878620000586064",
+      "link": "https://www.instagram.com/p/DgKmiauoHn0/"
+    },
+    "facebook": {
+      "status": "publicado",
+      "em": "2026-11-25T13:08:51+00:00",
+      "id": "1399084659958627_122112265335527571",
+      "link": "https://www.facebook.com/122111164329527571/posts/122112265335527571"
+    }
+  }
 }
