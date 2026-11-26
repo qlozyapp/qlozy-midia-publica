@@ -1,0 +1,35 @@
+{
+  "issue": 36,
+  "titulo": "Carrossel seg 30/11 10h: O caixa bateu. O mês ainda não fechou.",
+  "quando": "2026-11-30T10:00:00-03:00",
+  "postagens": [
+    {
+      "rede": "instagram",
+      "tipo": "carrossel",
+      "midias": [
+        "posts/2026-11-30-fechamento-4-passos/01.jpg",
+        "posts/2026-11-30-fechamento-4-passos/02.jpg",
+        "posts/2026-11-30-fechamento-4-passos/03.jpg",
+        "posts/2026-11-30-fechamento-4-passos/04.jpg",
+        "posts/2026-11-30-fechamento-4-passos/05.jpg",
+        "posts/2026-11-30-fechamento-4-passos/06.jpg",
+        "posts/2026-11-30-fechamento-4-passos/07.jpg"
+      ],
+      "legenda": "O caixa bateu. O mês ainda não fechou. São coisas diferentes, e hoje é dia 30.\r\n\r\nO caixa diz quanto entrou. O fechamento diz se sobrou dinheiro depois de pagar a equipe, as contas e o material. São 4 passos, e dá pra fazer no caderno ou na planilha.\r\n\r\nO passo 4 é o que mais se esquece: a lista de quem não voltou em novembro é a primeira mensagem de dezembro.\r\n\r\nSalva pra abrir todo dia 30.\r\n\r\n#gestaodesalao #donadesalao #fechamentodemes #barbearia #clinicadeestetica\r\n"
+    },
+    {
+      "rede": "facebook",
+      "tipo": "carrossel",
+      "midias": [
+        "posts/2026-11-30-fechamento-4-passos/01.jpg",
+        "posts/2026-11-30-fechamento-4-passos/02.jpg",
+        "posts/2026-11-30-fechamento-4-passos/03.jpg",
+        "posts/2026-11-30-fechamento-4-passos/04.jpg",
+        "posts/2026-11-30-fechamento-4-passos/05.jpg",
+        "posts/2026-11-30-fechamento-4-passos/06.jpg",
+        "posts/2026-11-30-fechamento-4-passos/07.jpg"
+      ],
+      "legenda": "O caixa bateu. O mês ainda não fechou. Hoje é dia 30: 4 passos pra fechar novembro no caderno ou na planilha. O passo 4, a lista de quem não voltou, é a sua primeira mensagem de dezembro. Salva pra abrir todo dia 30.\r\n"
+    }
+  ]
+}
