@@ -1,0 +1,25 @@
+{
+  "issue": 45,
+  "titulo": "Reel qua 02/12 10h: Mensagem pronta nº 1: o aviso de dezembro",
+  "quando": "2026-12-02T10:00:00-03:00",
+  "postagens": [
+    {
+      "rede": "instagram",
+      "tipo": "reel",
+      "midias": [
+        "posts/2026-12-02-mensagem-pronta-1/reel.mp4"
+      ],
+      "capa": "posts/2026-12-02-mensagem-pronta-1/capa.jpg",
+      "legenda": "Mensagem pronta nº 1: o aviso de dezembro pra mandar hoje às suas clientes, antes de as sextas lotarem.\r\n\r\nCopia, troca o que está entre colchetes e manda do seu WhatsApp:\r\n\r\n\"Oi, [nome]! A agenda de dezembro já abriu e as sextas e os sábados costumam lotar primeiro. [Nos dias __, vamos atender até as __h.] Quer garantir o seu? Me responde com o melhor dia e horário que eu já reservo pra você.\"\r\n\r\nSe não for ter horário estendido, apaga a frase do meio.\r\n\r\nSalva pra mandar hoje. Você vai mandar no grupo ou uma por uma?\r\n\r\n#donadesalao #gestaodesalao #agendacheia #barbearia\r\n"
+    },
+    {
+      "rede": "facebook",
+      "tipo": "reel",
+      "midias": [
+        "posts/2026-12-02-mensagem-pronta-1/reel.mp4"
+      ],
+      "capa": "posts/2026-12-02-mensagem-pronta-1/capa.jpg",
+      "legenda": "Mensagem pronta nº 1: o aviso de dezembro pra mandar hoje às suas clientes. Copia, troca o que está entre colchetes e manda: \"Oi, [nome]! A agenda de dezembro já abriu e as sextas e os sábados costumam lotar primeiro. Quer garantir o seu? Me responde com o melhor dia e horário que eu já reservo pra você.\" Salva pra mandar hoje.\r\n"
+    }
+  ]
+}
